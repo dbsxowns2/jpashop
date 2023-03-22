@@ -29,7 +29,7 @@ public class OrderServiceTest { // Ctrl + Shift + T :: Test 와 Java 이동 커�
     @Autowired OrderRepository orderRepository;
 
     @Test
-    public void order() throws Exception {
+    public void order() throws Exception { //
         //given
         Member member = createMember(); // Ctrl + Alt + M :: 기본 DataSet 만들기
 
